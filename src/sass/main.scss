@@ -82,5 +82,11 @@ a {
     align-items: center;
     justify-content: center;
     padding: 2px;
+    & b {
+      margin-bottom: 10px;
+    }
+    &:not(:last-child) {
+      margin-right: 10px;
+    }
   }
 }
